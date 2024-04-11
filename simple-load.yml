@@ -1,0 +1,15 @@
+services:
+  loading:
+    container_name: loading
+    build:
+      dockerfile: ./Dockerfile
+      context: ./samples
+      args:
+        - SAMPLE_PATH=simple-load
+    deploy:
+      resources:
+        limits:
+          memory: 300M
+
+include:
+  - Service/docker-compose.yml

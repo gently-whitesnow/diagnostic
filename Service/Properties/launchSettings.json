@@ -3,7 +3,7 @@
     "Service": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
-      "applicationUrl": "http://0.0.0.0:14612",
+      "applicationUrl": "http://0.0.0.0:8080",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "development"
       }
